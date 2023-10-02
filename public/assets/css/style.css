@@ -1,0 +1,33 @@
+:root {
+    --background: #eee9e9;
+    --card: #89656546;
+    --divider: #090707;
+    --sidebar: #171515;
+    --primary-text: #0c1118;
+    --secondary-text: #010101;
+    --accent: #0275d8;
+  }
+  
+  body {
+    background: var(--background);
+    font-family: sans-serif;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .chart-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    width: 60%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 15px;
+    background: var(--card);
+    color: var(--primary-text);
+    
+    h2 {
+      margin: 0;
+    }
+  }
